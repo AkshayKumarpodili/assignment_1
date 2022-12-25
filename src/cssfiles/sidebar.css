@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar_one{
+   min-height: 100vh;
+}
+
+
+.navbar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -850px;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-link:active,.nav-link:focus, .nav-link:hover{
+    background-color: blue;
+}
+
+
+.my-container {
+    transition: 0.4s;
+}
+
+.active-nav {
+    margin-left: 0;
+}
+
+
+.active-cont {
+    margin-left: 250px;
+}
+
+#menu-btn {
+    background-color: red;
+    color: white;
+}
+
+
+#menu-btn:focus {
+    box-shadow: 0 0 0 0.25rem palegreen;
+}
+
+
+ 
+
+
+
+
+
+
+
