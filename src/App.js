@@ -8,6 +8,11 @@ import {UserAuthContextProvider} from "./context/UserAuthContext";
 import DefaultSignupPage from './components/signupdefault';
 import Defaultforgotpassword from './components/Defaultforgotpassword';
 import Verify from './components/VerifyEmail';
+import Dashboard from './homecomponents/Dashboard'
+import CatalogManagement from './homecomponents/CatalogMangement'
+import ProductCatalog from './homecomponents/ProductCatalog'
+import Feedback from './homecomponents/Feedback'
+import Coupons from './homecomponents/Coupons';
 
 function App() {
   return (
@@ -21,6 +26,12 @@ function App() {
             <Route path="/signup" element={<DefaultSignupPage />} />
             <Route path="/forgotpassword" element={<Defaultforgotpassword />} />
             <Route path="/verify" element={<Verify />} />
+
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/coupons" element={<Coupons />} />
+            <Route path="/feedback" element={<Feedback />} />
+            <Route path="/management" element={<CatalogManagement />} />
+            <Route path="/catalog" element={<ProductCatalog />} />
           </Routes>
         </UserAuthContextProvider>  
       </Col>

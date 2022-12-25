@@ -18,8 +18,9 @@ const ForgotPassword = () => {
          try {
           const userid=localStorage.getItem("username");
           console.log("userid = ",userid);
-          const docRef = doc(db,"alphax",name); 
+          const docRef = doc(db,"alphax",name);
           const docSnap= await getDoc(docRef);
+          localStorage.setItem("fpname",name); 
 
           if(docSnap.exists())
           {
