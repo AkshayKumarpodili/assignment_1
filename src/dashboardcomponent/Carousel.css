@@ -1,0 +1,13 @@
+.carous{
+    width: 75%;
+    border: 2px solid;
+    margin-top: 4rem;
+    border-radius: 25px;
+    padding: 45px;
+    border-color: rgba(128, 128, 128, 0.552);
+}
+@media screen and (max-width:480px){
+    .carous{
+        width: 100%;
+    }
+}

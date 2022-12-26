@@ -1,0 +1,36 @@
+ .card1{
+    width: 90%;
+    height: 20%;
+    border: 2px solid;
+    margin-top: 4rem;
+    border-radius: 25px;
+    padding: 45px;
+    border-color: rgba(128, 128, 128, 0.552);
+}
+
+.incard{
+    width: max-content;
+    padding: 5px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: rgba(128, 128, 128, 0.552);
+}
+.icards{
+    margin-top: 7rem ;
+    border-radius: 30px;
+    padding: 15px;
+    height: max-content;
+}
+.icards2{
+    border-radius: 35px;
+    padding: 15px;
+}
+.bimage{
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin: auto;
+} 
+
+
+
